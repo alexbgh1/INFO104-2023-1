@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Tags de multimedia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <!-- Imágen estándar -->
+    <div>
+      <img
+        src="https://www.w3schools.com/images/w3schools_green.jpg"
+        alt="W3Schools.com"
+        width="104"
+        height="142"
+      />
+    </div>
+
+    <!-- Imágen "dinámica" (en este caso según el tamaño) -->
+    <div>
+      <picture>
+        <!-- "./" Toma el path del archivo actual -->
+        <!-- "/" Toma el path del root -->
+        <source
+          srcset="./img/large.jpg"
+          media="(min-width: 1000px)"
+          width="1000px"
+        />
+        <source
+          srcset="./img/medium.jpg"
+          media="(min-width: 550px)"
+          width="100%"
+        />
+        <img src="./img/small.jpg" alt="" width="100%" />
+      </picture>
+    </div>
+
+    <!-- Imágen SVG ( Scalable Vector Graphics ) -->
+    <div>
+      <svg width="100" height="100">
+        <circle
+          cx="50"
+          cy="50"
+          r="40"
+          stroke="green"
+          stroke-width="4"
+          fill="yellow"
+        />
+        Sorry, your browser does not support inline SVG.
+      </svg>
+    </div>
+
+    <!-- Inicio video -->
+    <div>
+      <video width="320" height="240" controls>
+        <source type="video/mp4" />
+        <source src="movie.ogg" type="video/ogg" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Inicio iframe -->
+    <div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Qk0fiNebwzk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Inicio audio -->
+    <div>
+      <audio controls>
+        <source src="src.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <!-- Inicio canvas -->
+    <div>
+      <!-- Example canvas -->
+      <canvas
+        id="myCanvas"
+        width="200"
+        height="100"
+        style="border: 1px solid #d3d3d3"
+      >
+        Your browser does not support the HTML5 canvas tag.</canvas
+      >
+      <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeText("Hello World", 10, 50);
+      </script>
+    </div>
+
+    <!-- Inicio gif -->
+    <div>
+      <img
+        src="https://media.discordapp.net/attachments/653466870199877635/809004149248491531/image0.gif"
+        alt="gif banda pepes"
+      />
+    </div>
+  </body>
+</html>

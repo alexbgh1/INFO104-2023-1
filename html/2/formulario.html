@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tags de formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .block > * {
+        display: block;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Formulario -->
+    <div>
+      <form>
+        <!-- Conjuto de campos formulario -->
+        <fieldset>
+          <legend>Información personal:</legend>
+          <label for="name">Nombre:</label>
+          <!-- "for" apunta al id -->
+          <input type="text" id="name" name="name" value="John" />
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- Inputs -->
+    <!-- Add display block to every input -->
+    <div class="block">
+      <!-- Input de texto (string) -->
+      <input type="text" value="Un texto cualquiera" />
+
+      <!-- Input de número -->
+      <input type="number" min="1" max="10" value="123" />
+
+      <!-- Input de fecha -->
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2023-01-09"
+        min="2023-03-09"
+        max="2023-03-09"
+      />
+
+      <!-- Input de hora -->
+      <input
+        type="time"
+        id="fecha"
+        name="fecha"
+        min="09:00"
+        max="18:00"
+        required
+      />
+
+      <!-- Input de color -->
+      <input type="color" />
+
+      <!-- Input de rango -->
+      <input type="range" />
+
+      <!-- Input de teléfono -->
+      <input type="tel" />
+
+      <!-- Input de email con regex -->
+      <input
+        type="text"
+        pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+        required
+      />
+
+      <!-- Input de contraseña -->
+      <input type="password" />
+
+      <!-- Input de selección (tipo alternativas) -->
+      <input type="radio" id="A" name="cuestionario-1" />
+      <input type="radio" id="B" name="cuestionario-1" />
+
+      <!-- Input de selección (más de una opción) -->
+      <input type="checkbox" value="A" />
+      <input type="checkbox" value="B" />
+
+      <!-- Input de subir archivo -->
+      <input type="file" accept="image/png, image/jpeg" />
+
+      <!-- Input de entrega (Suele ir al final de un <form></form> para "entregar/subir" las respuestas -->
+      <input type="submit" />
+      ``` ### Etiquetas de select, option y optgroup, textarea, button...
+      Existen otras etiquetas que se utilizan dentro de los formularios, como
+      por ejemplo: ```html
+      <!-- Select -->
+      <select>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+      </select>
+
+      <!-- Select con optgroup -->
+      <select>
+        <optgroup label="Grupo 1">
+          <option value="A">A</option>
+          <option value="B">B</option>
+        </optgroup>
+        <optgroup label="Grupo 2">
+          <option value="C">C</option>
+          <option value="D">D</option>
+        </optgroup>
+      </select>
+
+      <!-- Textarea -->
+      <textarea name="message" rows="10" cols="30">
+Escribe aquí tu mensaje...</textarea
+      >
+
+      <!-- Button -->
+      <button>Botón</button>
+    </div>
+  </body>
+</html>

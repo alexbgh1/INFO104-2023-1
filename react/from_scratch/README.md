@@ -1,7 +1,5 @@
 # Instrucciones para crear proyecto React de 0
 
-Inicializamos el proyecto con **npm** (node pack manager), esto nos creará un archivo **package.json** que contendrá la información del proyecto, scripts y las dependencias que se instalen.
-
 ## Inicializar proyecto npm
 
 Inicializamos el proyecto con **npm** (node pack manager), esto nos creará un archivo **package.json** que contendrá la información del proyecto, scripts y las dependencias que se instalen.
@@ -18,18 +16,18 @@ Instalamos las dependencias necesarias para el proyecto.
   <summary>
     Dependencias
   </summary>
-  <b>react:</b> Librería de UI (user interface) para crear componentes modulares.
-  </b>react-dom:</b> Nos permite renderizar React dentro del navegador DOM.
-  </b>webpack:</b> Paquete que convierte el código para la puesta a producción.
-  </b>webpack-cli:</b> Permite a webpack trabajar con comandos CLI (command-line interface)
-  </b>webpack-dev-server:</b> Transforma nuestro código fuente y lo sirve en un servidor web mientras lo desarrollamos continuamente. Esto ayuda a ver la salida de su código en el navegador.
-  </b>html-webpack-plugin:</b> Una extensión para webpack que añade el index básico html.
-  </b>@babel/core:</b> un transcompilador de JavaScript para convertir JavaScript moderno en una versión lista para producción que es compatible con todos los navegadores.
-  </b>babel-loader:</b> Conecta Babel al proceso de 'build' de webpack
-  </b>@babel/preset-env:</b> gGrupo de complementos de Babel de uso común agrupados en un ajuste preestablecido que convierte las características modernas de JavaScript en una sintaxis ampliamente compatible
-  </b>@babel/preset-react:</b> React-specific Babel plugin que convierte la sintáxis JSX en un Javascript antiguo plano que los buscadores entienden
+  <p><b>react:</b> Librería de UI (user interface) para crear componentes modulares.</p>
+  <p><b>react-dom:</b> Nos permite renderizar React dentro del navegador DOM.</p>
+  <p><b>webpack:</b> Paquete que convierte el código para la puesta a producción.</p>
+  <p><b>webpack-cli:</b> Permite a webpack trabajar con comandos CLI (command-line interface)</p>
+  <p><b>webpack-dev-server:</b> Transforma nuestro código fuente y lo sirve en un servidor web mientras lo desarrollamos continuamente. Esto ayuda a ver la salida de su código en el navegador.</p>
+  <p><b>html-webpack-plugin:</b> Una extensión para webpack que añade el index básico html.</p>
+  <p><b>@babel/core:</b> un transcompilador de JavaScript para convertir JavaScript moderno en una versión lista para producción que es compatible con todos los navegadores.</p>
+  <p><b>babel-loader:</b> Conecta Babel al proceso de 'build' de webpack</p>
+  <p><b>@babel/preset-env:</b> Grupo de complementos de Babel de uso común agrupados en un ajuste preestablecido que convierte las características modernas de JavaScript en una sintaxis ampliamente compatible</p>
+  <p><b>@babel/preset-react:</b> React-specific Babel plugin que convierte la sintáxis JSX en un Javascript antiguo plano que los buscadores entienden</p>
 
-Nota rápida: --save-dev flag es para particionar dependencias en dependencias específicas de desarrollo, luego no van incluidas en producción
+<p><b>Nota rápida: --save-dev</b> flag es para particionar dependencias en dependencias específicas de desarrollo, luego no van incluidas en producción</p>
 
 </details>
 
@@ -52,15 +50,18 @@ touch index.html
 
 ### Estructura hasta el momento
 
+
+```html
 my-app/
 ├─ node_modules/
 ├─ src/
-│ ├─ index.html
-│ ├─ index.js
+│   ├─ index.html
+│   ├─ index.js
 ├─ package-lock.json
 ├─ package.json
 ├─ webpack.config.js
 ├─ README.md
+```
 
 ### Contenido archivos
 

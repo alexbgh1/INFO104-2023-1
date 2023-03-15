@@ -1,6 +1,7 @@
 # Herramientas a utilizar
 
 ## 1. [Git](https://git-scm.com/downloads)
+Revisar [conceptos básicos de git](https://github.com/alexbgh1/git)
 
 ## 2. [Node.js](https://nodejs.org/es/download/) LTS (Long Term Support) version
 
@@ -13,7 +14,7 @@ Extensiones de utilidad:
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) o [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag), [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) y [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 
-### Sobre las extensiones de VSCode
+## Sobre las extensiones de VSCode
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): Permite correr un servidor local para poder visualizar el proyecto en el navegador. Para correrlo, solo se debe dar click derecho sobre el archivo `index.html` y seleccionar la opción `Open with Live Server`. Está pensado para ser utilizado en proyectos de **HTML**, **CSS** y **JavaScript**.
 

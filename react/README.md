@@ -37,7 +37,7 @@ Los componentes son pequeños trozos de código que se encargan de mostrar una p
 
 Suele haber un componente principal que se encarga de renderizar todos los demás componentes.
 
-#### Ejemplo create-react-app (./index.js)
+#### Ejemplo `create-react-app` (./index.js)
 
 ```jsx
 import React from "react";
@@ -54,7 +54,7 @@ root.render(
 );
 ```
 
-#### Ejemplo vite (./main.jsx)
+#### Ejemplo `vite` (./main.jsx)
 
 ```jsx
 import React from "react";
@@ -71,7 +71,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 #### Desde esa base, se suelen crear componentes
 
-**(./App.js o ./App.jsx)**
+`(./App.js o ./App.jsx)`
 
 ```jsx
 import React from "react";
@@ -94,8 +94,6 @@ export default App;
 
 Un componente se puede crear de distintas maneras, se suele utilizar una carpeta `/components`
 
-#### Export default
-
 **Export default** es una forma de exportar un componente, que se puede importar con cualquier nombre.
 
 ```jsx
@@ -106,8 +104,6 @@ export default function HelloWorld() {
   return <h1>¡Hola mundo!</h1>;
 }
 ```
-
-#### Export
 
 **Export** es otra forma de exportar un componente, podemos exportar varios componentes en un mismo archivo. Esto último no es tan recomendable, pero se puede hacer.
 
@@ -121,9 +117,9 @@ export function ByeWorld() {
 }
 ```
 
-#### Existe otra sintáxis para crear los componentes
+### Existe otra sintáxis para crear los componentes
 
-Esta sintáxis utiliza **arrow functions** y **const** en lugar de **function** y **export default**. Puedes leer más sobre la diferencia [aquí](https://dev.to/ugglr/react-functional-components-const-vs-function-2kj9)
+Esta sintáxis utiliza **arrow functions** y **const** en lugar de **function**. Puedes leer más sobre la diferencia [aquí](https://dev.to/ugglr/react-functional-components-const-vs-function-2kj9)
 
 ```jsx
 // import HelloWorld from './<ruta_hacia_este_componente>';
@@ -134,7 +130,7 @@ const HelloWorld = () => {
 export default HelloWorld;
 ```
 
-### Recordar que es JSX
+## Recordar que es JSX
 
 En estricto rigor, estamos retornando contenido **.jsx** (o **.tsx** si se está usando TypeScript), no **.js** ni **html**.
 
@@ -152,7 +148,7 @@ Esto tiene algunos cambios frente a **HTML**, algunos son:
 <div className="container" style={{ color: "red" }}></div>
 ```
 
-### Props
+## Props
 
 Las **props** son propiedades que se pasan a un componente, son como los atributos de una etiqueta HTML.
 
@@ -174,7 +170,7 @@ function App() {
 }
 ```
 
-#### Forma 1: props como argumento
+### Forma 1: props como argumento
 
 El componente `Description` puede recibir las props `name`, `age`, `isStudent` y `hobbies` como `props`:
 
@@ -196,7 +192,7 @@ export default function Description(props) {
 }
 ```
 
-#### Forma 2 (más común) : props como argumento destructurado
+### Forma 2 (más común) : props como argumento destructurado
 
 El componente `Description` puede recibir las props `name`, `age`, `isStudent` y `hobbies` como `{ name, age, isStudent, hobbies }`:
 
@@ -218,11 +214,11 @@ export default function Description({ name, age, isStudent, hobbies }) {
 }
 ```
 
-### Estados
+## Estados
 
 Los **estados** son variables que se pueden modificar, y que hacen que el componente se vuelva a renderizar. Estos **states** también se pueden pasar como props a otros componentes.
 
-#### useState
+### useState
 
 ```jsx
 import { useState } from "react";
@@ -240,7 +236,7 @@ export default function Counter() {
 }
 ```
 
-#### useEffect
+### useEffect
 
 El **useEffect** actúa como un **listener** de los cambios en el estado. Se puede usar para hacer peticiones a una API, o para generar cambios si nuestra variable de estado cambia.
 

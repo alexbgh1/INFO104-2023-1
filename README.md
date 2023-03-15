@@ -13,11 +13,11 @@ Corresponde a algunas herramientas que son de utilidad ya sea de manera visual o
 
 Corresponde a una guía de HTML, con ejemplos y explicaciones, de varios elementos que se utilizan en la web.
 
-## 3. CSS
+## 3. [CSS](./css)
 
-## 4. JavaScript
+## 4. [JavaScript](./javascript)
 
-## 5. React
+## 5. [React](./react)
 
 # TODO:
 

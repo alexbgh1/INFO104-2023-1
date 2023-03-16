@@ -212,32 +212,32 @@ Las etiquetas de video se utilizan para mostrar videos :o .
 
 Las etiquetas de lista se utilizan para mostrar listas de elementos.
 
-    ```html
-        <!-- Lista no ordenada -->
-        <ul>
-            <li>Manzana</li>
-            <li>Naranja</li>
-            <li>Plátano</li>
-        </ul>
+```html
+<!-- Lista no ordenada -->
+<ul>
+    <li>Manzana</li>
+    <li>Naranja</li>
+    <li>Plátano</li>
+</ul>
 
-        <!-- Lista ordenada ( numerada ) -->
+<!-- Lista ordenada ( numerada ) -->
 
-        <ol>
-            <li>Manzana</li>
-            <li>Naranja</li>
-            <li>Plátano</li>
-        </ol>
+<ol>
+    <li>Manzana</li>
+    <li>Naranja</li>
+    <li>Plátano</li>
+</ol>
 
-        <!-- Lista de definición -->
-        <dl>
-            <dt>Manzana</dt>
-            <dd>Es una fruta roja.</dd>
-            <dt>Naranja</dt>
-            <dd>Es una fruta naranja.</dd>
-            <dt>Plátano</dt>
-            <dd>Es una fruta amarilla.</dd>
-        </dl>
-    ```
+<!-- Lista de definición -->
+<dl>
+    <dt>Manzana</dt>
+    <dd>Es una fruta roja.</dd>
+    <dt>Naranja</dt>
+    <dd>Es una fruta naranja.</dd>
+    <dt>Plátano</dt>
+    <dd>Es una fruta amarilla.</dd>
+</dl>
+```
 
 ### Etiquetas de tabla
 

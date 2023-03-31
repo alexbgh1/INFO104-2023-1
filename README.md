@@ -22,6 +22,10 @@ Corresponde a una guía de **Javascript**, con ejemplos y explicaciones de algun
 
 **React** de manera muy resumida junta **HTML** y **Javascript**. 
 
+## 6. [Next.js](./next)
+
+**Next.js** de manera muy resumida, nos facilita el enrutado (ej: "/", "/about", "nosotros"), entre otras acciones referentes al desempeño, como separar la carga entre servidor y cliente.
+
 # TODO:
 
 - [x] HTML

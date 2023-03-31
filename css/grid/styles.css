@@ -1,0 +1,80 @@
+/* 
+  display: grid -> muestra el elemento como un contenedor grid (grilla) #
+  grid-template-columns: repeat(2, 1fr) -> crea 2 columnas de ancho 1fr (fracción de la pantalla) #
+  gap: 4rem -> agrega un espacio de 4rem entre los elementos #
+  justify-content: center -> alinea los elementos al centro #
+  align-items: center -> alinea los elementos verticalmente al centro #
+*/
+
+.container-grid {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+  Mobile first: cuando llegue a 768px, cambia el grid-template-columns a 3 columnas
+*/
+
+@media screen and (min-width: 768px) {
+  .container-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.container-grid-area {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "uno dos"
+    "tres seis"
+    "cuatro cinco";
+}
+
+.uno {
+  grid-area: uno;
+  background-color: red;
+}
+
+.dos {
+  grid-area: dos;
+  background-color: blue;
+}
+
+.tres {
+  grid-area: tres;
+  background-color: green;
+}
+
+.cuatro {
+  grid-area: cuatro;
+  background-color: yellow;
+}
+
+.cinco {
+  grid-area: cinco;
+  background-color: orange;
+}
+
+.seis {
+  grid-area: seis;
+  background-color: purple;
+}
+
+@media screen and (min-width: 768px) {
+  .container-grid-area {
+    grid-template-areas:
+      "uno cinco dos dos"
+      "uno seis seis seis"
+      "uno cuatro cuatro tres";
+  }
+}
+
+.card {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

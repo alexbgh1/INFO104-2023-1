@@ -1,0 +1,119 @@
+/* Start Simple Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* End simple reset */
+
+/* Start custom styles */
+
+/*
+  Esta estructura en .body es para que el footer siempre esté abajo
+  y el contenido siempre esté centrado
+*/
+.body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navigation {
+  display: flex;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e4e4e4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation__navbar {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation__navbar--list {
+  display: flex;
+  gap: 1rem;
+}
+
+/* 
+  Esta estructura en .main es para que el contenido ocupe todo el espacio
+  disponible y se centre
+*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  gap: 4rem;
+  margin: 0 1rem 1rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+  Mobile first: cuando llegue a 768px, cambia el flex-direction a row
+*/
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.container__card {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #e4e4e4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

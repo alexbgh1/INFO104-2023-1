@@ -1,13 +1,17 @@
 # Herramientas a utilizar
 
 ## 1. [Git](https://git-scm.com/downloads)
+
 Revisar [conceptos básicos de git](https://github.com/alexbgh1/git)
 
 ## 2. [Node.js](https://nodejs.org/es/download/) LTS (Long Term Support) version
 
+**Node.js** es un entorno de tiempo de ejecución (runtime) de JavaScript que se ejecuta en el lado del servidor, lo que significa que permite a los desarrolladores utilizar JavaScript en el servidor para construir aplicaciones web y servicios. Se utilizará para utilizar **npm** (Node Package Manager), que es un administrador de paquetes para el lenguaje de programación JavaScript.
+
 ## 3. [Visual Studio Code](https://code.visualstudio.com/download)
 
 Extensiones de utilidad:
+
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)

@@ -1,0 +1,31 @@
+/* 
+display: flex -> muestra el elemento como un contenedor flex
+flex-direction: column -> muestra los elementos en una fila
+justify-content: center -> alinea los elementos al centro
+align-items: center -> alinea los elementos verticalmente al centro
+gap: 4rem -> agrega un espacio de 4rem entre los elementos
+*/
+
+.container-flex {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+  Mobile first: cuando llegue a 768px, cambia el flex-direction a row
+*/
+@media screen and (min-width: 768px) {
+  .container-flex {
+    flex-direction: row;
+  }
+}
+
+.card {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

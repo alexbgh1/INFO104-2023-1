@@ -1,8 +1,8 @@
 # HTML tags y sintáxis
 
-Básicamente HTML es un lenguaje de marcado que se utiliza para crear páginas web. HTML es un acrónimo que significa HyperText Markup Language (Lenguaje de Marcado de Hipertexto).
+Básicamente **HTML** es un lenguaje de marcado que se utiliza para crear páginas web. HTML es un acrónimo que significa HyperText Markup Language (Lenguaje de Marcado de Hipertexto).
 
-HTML no es un lenguaje de programación, sino un lenguaje de marcado. HTML **describe la estructura de una página web** **_semánticamente_** (además de presentarla visualmente) y define el contenido de la página web.
+**HTML** no es un lenguaje de programación, sino un lenguaje de marcado. HTML **describe la estructura de una página web** **_semánticamente_** (además de presentarla visualmente) y define el contenido de la página web.
 
 **semánticamente** significa que no solo se enfoca en la presentación, sino que también describe el significado y la estructura del contenido.
 
@@ -16,9 +16,9 @@ Los **atributos** son propiedades que se aplican a las etiquetas.
 
 Un documento normal se compone de tres partes:
 
-- **<html></html>**: Define el documento HTML y envuelve todo el contenido de la página web.
-- **<head></head>**: Define información sobre el documento HTML (de manera más "interna")
-- **<body></body>**: Define el contenido del documento HTML (más visible para el usuario)
+- **`<html></html>`**: Define el documento HTML y envuelve todo el contenido de la página web.
+- **`<head></head>`**: Define información sobre el documento HTML (de manera más "interna")
+- **`<body></body>`**: Define el contenido del documento HTML (más visible para el usuario)
 
 ```html
 <!-- DOCTYPE: define el tipo de documento (versión) -->
@@ -424,6 +424,10 @@ Las etiquetas de estructura o contenedores se utilizan para definir la estructur
   <p>Este es un párrafo.</p>
 </aside>
 ```
+
+Entre estos contenedores salvo por **`<main></main>`** generalmente se pueden repetir más de una vez, se relacionan más a la **semántica** (significado) que le damos.
+
+Entonces por ejemplo, uno esperaría "un contenido principal" (**`<main></main>`**), pero podría tener 2 **`<nav></nav>`** uno en la parte superior y otro en la parte inferior de la página, o muchos **`<div></div>`** que es el más genérico de todos.
 
 ## Referencias
 

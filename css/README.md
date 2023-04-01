@@ -286,9 +286,13 @@ El **padding** es el espacio que hay entre el contenido y el borde. El **margin*
 Generalmente se abrevian las propiedades, siempre empieza desde arriba y va en sentido de las manecillas del reloj.
 
 `padding: 5px` (top, right, bottom, left)
+
 `padding: 5px 10px` (top/bottom, right/left)
+
 `padding: 5px 10px 15px 0px` (top, right, bottom, left)
+
 `margin: 5px` (top, right, bottom, left)
+
 `border: 1px solid black` (grosor, tipo de borde, color)
 
 ```css

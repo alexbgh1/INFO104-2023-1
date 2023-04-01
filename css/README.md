@@ -166,7 +166,7 @@ Estas propiedades dependerán del elemento que queramos darle estilo. Por ejempl
 
 ## [Combinadores](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors/Combinators#selector_de_descendientes)
 
-Los **combinadores** son los selectores que nos permiten seleccionar elementos que cumplan una condición. Por ejemplo, si queremos darle un color de fondo a un elemento `div` que tenga la clase `container` y que a su vez tenga un elemento `p`, bastará con seleccionar ese elemento `p` y definir el estilo.
+Los **combinadores** son los selectores que nos permiten seleccionar elementos que cumplan una condición. Por ejemplo, si queremos darle un color de fondo a un elemento `div` que tenga la clase `container` y que a su vez tenga un elemento `p`, bastará con seleccionar ese elemento `.container p` y definir el estilo.
 
 ```html
 <div class="container">
@@ -248,6 +248,64 @@ Una metodología es **"mobile first"** que consiste en diseñar la página web p
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+```
+
+## [Display](https://developer.mozilla.org/es/docs/Web/CSS/display)
+
+El **display** es una propiedad que nos permite definir el tipo de elemento que queremos. Por ejemplo, si queremos que un elemento sea un elemento de bloque, bastará con definir el **display** como `block`. Si queremos que un elemento sea un elemento de línea, bastará con definir el **display** como `inline`.
+
+```css
+/* Elemento de bloque */
+.block {
+  display: block;
+}
+
+/* Elemento de línea */
+.inline {
+  display: inline;
+}
+
+/* Elemento none ('desaparece') */
+.none {
+  display: none;
+}
+
+/* Elemento de tabla */
+.table {
+  display: table;
+}
+
+/* flex, grid, ... y muchos más */
+```
+
+## [Padding,](https://developer.mozilla.org/es/docs/Web/CSS/padding) [margin](https://developer.mozilla.org/es/docs/Web/CSS/margin) y [border](https://developer.mozilla.org/es/docs/Web/CSS/border)
+
+El **padding** es el espacio que hay entre el contenido y el borde. El **margin** es el espacio que hay entre el "borde" y el elemento vecino. El **border** es el borde del elemento.
+
+Generalmente se abrevian las propiedades, siempre empieza desde arriba y va en sentido de las manecillas del reloj.
+
+`padding: 5px` (top, right, bottom, left)
+`padding: 5px 10px` (top/bottom, right/left)
+`padding: 5px 10px 15px 0px` (top, right, bottom, left)
+`margin: 5px` (top, right, bottom, left)
+`border: 1px solid black` (grosor, tipo de borde, color)
+
+```css
+/* Padding */
+.padding {
+  padding: 10px;
+  padding-top: 10px; /* También se puede definir de esta manera para un lado */
+}
+
+/* Margin */
+.margin {
+  margin: 10px;
+}
+
+/* Border */
+.border {
+  border: 1px solid black;
 }
 ```
 

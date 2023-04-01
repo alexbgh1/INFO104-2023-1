@@ -8,6 +8,10 @@ Utiliza renderizado de **estructura virtual**, que es una forma de renderizar el
 
 Simplifica la sintaxis de **JSX**, que es una extensión de JavaScript que permite escribir código HTML dentro de JavaScript, de manera declarativa.
 
+## [Presentación en canvas](https://www.canva.com/design/DAFeyvHGb1w/2uNDRzHA6KcurRrFMDQO6g/edit?utm_content=DAFeyvHGb1w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+En la presentación de canvas se explica el concepto de **DOM vs VDOM**, **JSX**, **declarativo**, **Componentes**, **renderizado (state)** y **hooks**. Es parecido a lo que se muestra acá, pero un poco más explicado en por qué se usa o se hace de cierta manera.
+
 ## Creando un primer proyecto
 
 ### Comandos ya configurados
@@ -22,6 +26,11 @@ $ npx create-react-app my-app
 $ npx create vite@latest
 $ npx create-next-app@latest
 ```
+
+> **Warning**
+> Hace muy poco (Marzo 2023) se dejó de recomendar `create-react-app`
+
+Hace muy poco (Marzo 2023) se dejó de recomendar `create-react-app`
 
 Estos comandos crean un proyecto con la estructura de carpetas y archivos necesarios para empezar a trabajar. En el caso de `create-react-app` ya no se utiliza tanto, se recomienda usar `vite@latest` que es más rápido y ligero.
 

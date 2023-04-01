@@ -166,7 +166,11 @@ Estas propiedades dependerán del elemento que queramos darle estilo. Por ejempl
 
 ## [Combinadores](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors/Combinators#selector_de_descendientes)
 
+<<<<<<< HEAD
 Los **combinadores** son los selectores que nos permiten seleccionar elementos que cumplan una condición. Por ejemplo, si queremos darle un color de fondo a un elemento `div` que tenga la clase `container` y que a su vez tenga un elemento `p`, bastará con seleccionar ese elemento `.container p` y definir el estilo.
+=======
+Los **combinadores** son los selectores que nos permiten seleccionar elementos que cumplan una condición. Por ejemplo, si queremos darle un color de fondo a un elemento `div` que tenga la clase `container` y que a su vez tenga un elemento `p`, bastará con seleccionar ese elemento `p` y definir el estilo.
+>>>>>>> 455a3208846ea5e526c4ef4b69f946b0fb96dd71
 
 ```html
 <div class="container">
@@ -251,6 +255,7 @@ Una metodología es **"mobile first"** que consiste en diseñar la página web p
 }
 ```
 
+<<<<<<< HEAD
 ## [Display](https://developer.mozilla.org/es/docs/Web/CSS/display)
 
 El **display** es una propiedad que nos permite definir el tipo de elemento que queremos. Por ejemplo, si queremos que un elemento sea un elemento de bloque, bastará con definir el **display** como `block`. Si queremos que un elemento sea un elemento de línea, bastará con definir el **display** como `inline`.
@@ -309,6 +314,8 @@ Generalmente se abrevian las propiedades, siempre empieza desde arriba y va en s
 }
 ```
 
+=======
+>>>>>>> 455a3208846ea5e526c4ef4b69f946b0fb96dd71
 ## Herramientas para CSS
 
 Existen varias herramientas que nos permiten escribir **CSS** de una manera más sencilla y rápida. Estas herramientas son:

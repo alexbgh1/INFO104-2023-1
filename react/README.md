@@ -8,7 +8,7 @@ Utiliza renderizado de **estructura virtual**, que es una forma de renderizar el
 
 Simplifica la sintaxis de **JSX**, que es una extensión de JavaScript que permite escribir código HTML dentro de JavaScript, de manera declarativa.
 
-## [Presentación en canvas](https://www.canva.com/design/DAFeyvHGb1w/2uNDRzHA6KcurRrFMDQO6g/edit?utm_content=DAFeyvHGb1w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+## [Presentación en canvas](https://www.canva.com/design/DAFc73BVKKw/SQwWCqYZKOlGyz3-92N6FA/view?utm_content=DAFc73BVKKw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 En la presentación de canvas se explica el concepto de **DOM vs VDOM**, **JSX**, **declarativo**, **Componentes**, **renderizado (state)** y **hooks**. Es parecido a lo que se muestra acá, pero un poco más explicado en por qué se usa o se hace de cierta manera.
 

@@ -30,8 +30,6 @@ $ npx create-next-app@latest
 > **Warning**
 > Hace muy poco (Marzo 2023) se dejó de recomendar `create-react-app`
 
-Hace muy poco (Marzo 2023) se dejó de recomendar `create-react-app`
-
 Estos comandos crean un proyecto con la estructura de carpetas y archivos necesarios para empezar a trabajar. En el caso de `create-react-app` ya no se utiliza tanto, se recomienda usar `vite@latest` que es más rápido y ligero.
 
 ### "Desde 0" [from_scratch](./from_scratch)

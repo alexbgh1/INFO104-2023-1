@@ -30,9 +30,21 @@ Corresponde a una guía de **Javascript**, con ejemplos y explicaciones de algun
 
 # TODO:
 
+- [x] Herramientas
 - [x] HTML
-- [ ] CSS
-- [ ] JavaScript
-- [ ] React
-- [ ] Añadir descripciones cortas del contenido de cada sección
+- [x] CSS
+- [x] JavaScript
+- [x] React
+- [ ] Nextjs
+- [x] Añadir descripciones cortas del contenido de cada sección
 - [ ] Añadir contenido de cada sección
+
+## Contenido generado gracias a:
+
+- [x] [W3Schools](https://www.w3schools.com/)
+- [x] [MDN Web Docs](https://developer.mozilla.org/es)
+- [x] [JavaScript.info](https://javascript.info/)
+- [x] [React](https://es.reactjs.org/)
+- [x] [Next.js](https://nextjs.org/)
+- [x] [StackOverflow](https://stackoverflow.com/)
+- [x] [Chat GPT](https://chat.openai.com/chat)
